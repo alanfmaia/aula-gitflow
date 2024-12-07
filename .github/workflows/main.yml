@@ -1,0 +1,12 @@
+name: Variaveis de ambiente
+on:
+  workflow_dispatch:
+jobs:
+  env:
+   runs-on : ubuntu-latest
+   steps:
+     -  name: Execucao
+        run:  |
+          echo "Valor" 
+          
+  
